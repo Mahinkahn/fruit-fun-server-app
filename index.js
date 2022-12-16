@@ -164,4 +164,4 @@ run().catch(console.dir);
 
 // Root Api to cheack activity
 
-
+app.listen(port, () => console.log(`Server up and running ${port}`));
